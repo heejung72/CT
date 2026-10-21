@@ -1,6 +1,4 @@
 def solution(n):
-    sum = 0
-    for i in range(len(str(n))):
-        sum += n % 10
-        n = n // 10
-    return sum
+    if (n == 0):
+        return 0
+    return n%10 +solution(n//10)

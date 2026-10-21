@@ -1,0 +1,8 @@
+print( 0<10 )
+print(4<10)
+print(10 == 10)
+print(10!=10)
+print (5<=10)
+print( True and True)
+print(True or False)
+print(not True)
